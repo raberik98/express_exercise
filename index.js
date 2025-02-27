@@ -33,7 +33,7 @@ app.post("/api/v1/coffee", async (req,res) => {
         serving_size_ml: req.body.serving_size_ml,
     })
 
-    await fs.writeFile(`${__dirname}/db/coffee.json`, JSON.stringify(coffee))
+    await fs.writeFile(`${__dirname}/db/coffee.json`, JSON.stringify(coffee, null, 2))
 
     res.json({message: "Successfully saved a new coffee!"})
 })
@@ -53,7 +53,24 @@ app.get("/api/v1/coffee", async (req,res) => {
 
 })
 
+app.delete("/api/v1/coffee", async (req,res) => {
+    const coffeeData = JSON.parse(await fs.readFile(`${__dirname}/db/coffee.json`))
+    const id = Number(req.query.id)
+
+    const newCoffeeData = []
+
+    for(let coffee of coffeeData) {
+        if(coffee.id !== id) {
+            newCoffeeData.push(coffee)
+        }
+    }
+
+    await fs.writeFile(`${__dirname}/db/coffee.json`, JSON.stringify(newCoffeeData, null, 2))
+
+    res.json({message: "Successfully deleted a new coffee!"})
+})
+
 
 app.listen(8080, () => {
-    console.log("Server listens on port: 8080");
+    console.log("Server listens on port: 8080")
 })
