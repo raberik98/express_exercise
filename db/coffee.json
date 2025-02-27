@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "name": "Espresso",
+        "origin": "Italy",
+        "caffeine_content_mg": 64,
+        "description": "A strong, concentrated coffee brewed by forcing hot water through finely-ground coffee beans.",
+        "serving_size_ml": 30
+    },
+    {
+        "id": 2,
+        "name": "Americano",
+        "origin": "United States",
+        "caffeine_content_mg": 95,
+        "description": "Espresso diluted with hot water, resulting in a smoother and milder flavor.",
+        "serving_size_ml": 240
+    },
+    {
+        "id": 3,
+        "name": "Latte",
+        "origin": "Italy",
+        "caffeine_content_mg": 77,
+        "description": "A coffee drink made with espresso and steamed milk, often topped with a small amount of foam.",
+        "serving_size_ml": 240
+    },
+    {
+        "id": 4,
+        "name": "Cappuccino",
+        "origin": "Italy",
+        "caffeine_content_mg": 77,
+        "description": "Similar to a latte but with equal parts espresso, steamed milk, and milk foam, giving it a creamier texture.",
+        "serving_size_ml": 180
+    },
+    {
+        "id": 5,
+        "name": "Macchiato",
+        "origin": "Italy",
+        "caffeine_content_mg": 64,
+        "description": "An espresso with a small amount of milk or milk foam, offering a stronger coffee flavor.",
+        "serving_size_ml": 60
+    },
+    {
+        "id": 6,
+        "name": "Mocha",
+        "origin": "Yemen",
+        "caffeine_content_mg": 95,
+        "description": "A chocolate-flavored coffee drink made with espresso, steamed milk, and chocolate syrup or cocoa powder.",
+        "serving_size_ml": 240
+    },
+    {
+        "id": 7,
+        "name": "Flat White",
+        "origin": "Australia",
+        "caffeine_content_mg": 77,
+        "description": "A velvety smooth coffee made with espresso and steamed milk, with a thinner layer of foam compared to a latte.",
+        "serving_size_ml": 180
+    },
+    {
+        "id": 8,
+        "name": "Turkish Coffee",
+        "origin": "Turkey",
+        "caffeine_content_mg": 50,
+        "description": "A strong, unfiltered coffee made by boiling very finely ground coffee beans in water, often with sugar and cardamom.",
+        "serving_size_ml": 60
+    },
+    {
+        "id": 9,
+        "name": "Cold Brew",
+        "origin": "United States",
+        "caffeine_content_mg": 200,
+        "description": "Coffee brewed with cold water over an extended period (12–24 hours), resulting in a smooth and less acidic taste.",
+        "serving_size_ml": 240
+    },
+    {
+        "id": 10,
+        "name": "Irish Coffee",
+        "origin": "Ireland",
+        "caffeine_content_mg": 77,
+        "description": "A cocktail combining hot coffee, Irish whiskey, sugar, and a layer of cream on top.",
+        "serving_size_ml": 240
+    },
+    {
+        "id": 11,
+        "name": "new name",
+        "origin": "hun",
+        "caffeine_content_mg": 12,
+        "description": " asd asdasd",
+        "serving_size_ml": 50
+    }
+]
